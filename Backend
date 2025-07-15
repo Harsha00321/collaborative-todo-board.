@@ -1,1 +1,4 @@
-
+mkdir config models routes middleware sockets
+touch config/db.js models/User.js models/Task.js models/Action.js models/Conflict.js
+touch routes/auth.js routes/tasks.js routes/actions.js middleware/auth.js sockets/socket.js
+touch .env server.js
